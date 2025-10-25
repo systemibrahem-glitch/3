@@ -1,0 +1,32 @@
+# Global owners
+* @systemibrahem-glitch
+
+# Client directory
+/client/ @systemibrahem-glitch
+
+# Server directory
+/server/ @systemibrahem-glitch
+
+# Shared directory
+/shared/ @systemibrahem-glitch
+
+# Drizzle directory
+/drizzle/ @systemibrahem-glitch
+
+# GitHub workflows
+/.github/ @systemibrahem-glitch
+
+# Documentation
+*.md @systemibrahem-glitch
+/LICENSE @systemibrahem-glitch
+/README.md @systemibrahem-glitch
+/DEPLOYMENT_GUIDE.md @systemibrahem-glitch
+/CONTRIBUTING.md @systemibrahem-glitch
+/CHANGELOG.md @systemibrahem-glitch
+
+# Configuration files
+package.json @systemibrahem-glitch
+netlify.toml @systemibrahem-glitch
+wrangler.toml @systemibrahem-glitch
+.nvmrc @systemibrahem-glitch
+.gitignore @systemibrahem-glitch

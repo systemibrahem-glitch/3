@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: دعم المجتمع
+    url: https://github.com/systemibrahem-glitch/50/discussions
+    about: اسأل أسئلة عامة أو شارك في المناقشات مع المجتمع
+  - name: الدعم الفني
+    url: mailto:systemibrahem@gmail.com
+    about: احصل على دعم فني مباشر عبر البريد الإلكتروني
+  - name: الدعم عبر WhatsApp
+    url: https://wa.me/963994054027
+    about: تواصل معنا عبر WhatsApp للحصول على دعم سريع
+  - name: الإبلاغ عن ثغرة أمنية
+    url: mailto:systemibrahem@gmail.com
+    about: أبلغ عن ثغرة أمنية بشكل خاص وآمن

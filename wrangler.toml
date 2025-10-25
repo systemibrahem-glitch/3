@@ -1,0 +1,35 @@
+name = "ibrahim-accounting"
+compatibility_date = "2024-01-01"
+main = "client/dist/index.html"
+
+[build]
+command = "npm run build"
+publish = "client/dist"
+
+# إعدادات النشر
+[env.production]
+name = "ibrahim-accounting-prod"
+
+# متغيرات البيئة للإنتاج
+[env.production.vars]
+VITE_SUPABASE_URL = "https://imuequpezaixljuxljdn.supabase.co"
+VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImltdWVxdXBlemFpeGxqdXhsamRuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjExOTI5MDEsImV4cCI6MjA3Njc2ODkwMX0.uuVPRX9J_QBzZmjWwv6uGaDAc1YRd7LjBTK0NVfRsHo"
+VITE_APP_TITLE = "نظام إبراهيم للمحاسبة"
+VITE_APP_LOGO = "/logo.png"
+VITE_WHATSAPP_NUMBER = "+963994054027"
+VITE_SUPPORT_EMAIL = "systemibrahem@gmail.com"
+VITE_TRIAL_DAYS = "30"
+VITE_SUBSCRIPTION_PLANS = '{"monthly":{"name":"شهري","duration":30,"price":5},"6months":{"name":"6 أشهر","duration":180,"price":30},"yearly":{"name":"سنوي","duration":365,"price":40}}'
+VITE_SUPPORTED_CURRENCIES = '["TRY","SYP","USD"]'
+VITE_ENABLE_ANALYTICS = "false"
+VITE_ENABLE_ERROR_REPORTING = "false"
+
+# إعدادات التطوير
+[env.development]
+name = "ibrahim-accounting-dev"
+
+[env.development.vars]
+VITE_SUPABASE_URL = "https://imuequpezaixljuxljdn.supabase.co"
+VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImltdWVxdXBlemFpeGxqdXhsamRuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjExOTI5MDEsImV4cCI6MjA3Njc2ODkwMX0.uuVPRX9J_QBzZmjWwv6uGaDAc1YRd7LjBTK0NVfRsHo"
+VITE_APP_TITLE = "نظام إبراهيم للمحاسبة - التطوير"
+VITE_APP_LOGO = "/logo.png"
